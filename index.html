@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <!--  
+        . 01 Reviving Retro PCs  02 Top 10 Laptops of 2022  03 The Growth of Gaming  -->
+    <navbar id="navbar">
+      <div class="navbaricon"><img src="/assets/images/logo.svg" /></div>
+      <div class="navbaritems">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </navbar>
+
+    <div class="main">
+      <section class="home">
+        <div class="homeimage">
+          <img src="/assets/images/image-web-3-desktop.jpg" />
+        </div>
+        <div class="content">
+          <div class="hometitle">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="description">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="new">
+        <h2>New</h2>
+        <div class="news">
+          <h4>Hydrogen VS Electric Cars</h4>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="news">
+          <h4>The Downsides of AI Artistry</h4>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div class="news special">
+          <h4>Is VC Funding Drying Up?</h4>
+          <p>
+            Private funding by VC farms is down 50% YOY. We took a look at what
+            that means.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="trending">
+      <div class="trends">
+        <img src="/assets/images/image-retro-pcs.jpg" />
+        <div class="trendnew">
+          <h3>01</h3>
+          <h4>Reviving Retro PCs</h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="trends">
+        <img src="/assets/images/image-top-laptops.jpg" />
+        <div class="trendnew">
+          <h3>02</h3>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="trends">
+        <img src="/assets/images/image-gaming-growth.jpg" />
+        <div class="trendnew">
+          <h3>03</h3>
+          <h4>The Growth of Gaming</h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
