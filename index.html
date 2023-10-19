@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,12 +13,16 @@
     <link rel="stylesheet" href="./style.css" />
 
     <title>Frontend Mentor | News homepage</title>
+    <script src="script.js"></script>
   </head>
   <body>
-    <!--  
-        . 01 Reviving Retro PCs  02 Top 10 Laptops of 2022  03 The Growth of Gaming  -->
     <navbar id="navbar">
-      <div class="navbaricon"><img src="/assets/images/logo.svg" /></div>
+      <div class="logo"><img src="/assets/images/logo.svg" /></div>
+
+      <div class="menu-icon">
+        <img src="/assets/images/icon-menu.svg" />
+      </div>
+
       <div class="navbaritems">
         <ul>
           <li><a href="#">Home</a></li>
@@ -27,6 +30,18 @@
           <li><a href="#">Popular</a></li>
           <li><a href="#">Trending</a></li>
           <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+
+      <div class="hamburger-menu">
+        <img src="/assets/images/icon-menu-close.svg" class="close-icon" />
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Home</a></li>
+          <li><a class="menu__item" href="#">About</a></li>
+          <li><a class="menu__item" href="#">Team</a></li>
+          <li><a class="menu__item" href="#">Contact</a></li>
+          <li><a class="menu__item" href="#">Twitter</a></li>
         </ul>
       </div>
     </navbar>
