@@ -81,7 +81,8 @@ a:hover {
   color: hsl(236, 13%, 42%);
   font-size: 15px;
 }
-.news h4:hover {
+.news:hover h4 {
+  cursor: pointer;
   color: hsl(35, 77%, 62%);
 }
 button {
@@ -95,6 +96,7 @@ button {
   letter-spacing: 2px;
 }
 button:hover {
+  cursor: pointer;
   background-color: hsl(240, 100%, 5%);
 }
 
@@ -160,11 +162,13 @@ button:hover {
 .trending {
   margin: 20px 0px 20px 0;
   display: flex;
+  flex-wrap: wrap;
 }
 .trends {
+  width: 373px;
   display: flex;
+  margin-bottom: 10px;
   margin-right: 10px;
-  width: 33.3%;
   height: 120px;
 }
 .trends img {
@@ -183,5 +187,6 @@ p {
   font-size: 25px;
 }
 .trendnew h4:hover {
+  cursor: pointer;
   color: hsl(5, 85%, 63%);
 }
